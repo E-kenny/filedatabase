@@ -54,7 +54,7 @@
 
             }
          
-          header("location:index.php");               
+          header("location:login.php");               
                            
         }
     
@@ -72,7 +72,7 @@
     </form>
     
     <br>
-    <a href="index.php">
+    <a href="login.php">
        
         <input type="submit" name="submit" value="back" id="">    
     </a>

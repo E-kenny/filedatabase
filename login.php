@@ -14,13 +14,13 @@
          $errorMessage ='';
         
        
-            if( isset($_SESSION['errorMessage']) ){
+            if( $_SESSION['errorMessage'] == ''){
                 
-                $errorMessage = $_SESSION['errorMessage'];
+                $errorMessage ='';
                 
         }else{
-
-            $errorMessage ='';
+            $errorMessage = $_SESSION['errorMessage'];
+           
             
         }   
         
@@ -30,7 +30,7 @@
     <h2>Login here</h2>
 
     <form action="index.php" method="post">
-        <h4 class="err"><?php echo !$_POST ? $errorMessage : ''; ?></h4>
+        <h4 class="err"><?php echo $errorMessage ; ?></h4>
         <label for="email">Email</label><br>
         <input type="email" name="email" id="email" value="">
         

@@ -62,6 +62,8 @@
                     
                  global  $err;
                  $err = false;
+                 $_SESSION['errorMessage'] = '';
+
                  break;
             };
 
