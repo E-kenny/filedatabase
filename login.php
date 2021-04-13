@@ -14,7 +14,7 @@
          $errorMessage ='';
         
        
-            if( $_SESSION['errorMessage'] == ''){
+            if( !isset($_SESSION['errorMessage']) ){
                 
                 $errorMessage ='';
                 
