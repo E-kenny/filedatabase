@@ -59,6 +59,9 @@
         }
     
  ?>
+    <h1>zuri Training</h1>
+    <hr>
+    <h2>Reset password</h2>
     <form action="<?php $_SERVER['PHP_SELF'];?>" method="post">
         
         <label for="password">Password</label><br>

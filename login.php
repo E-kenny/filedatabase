@@ -46,7 +46,7 @@
 
      </form>
      <br>
-     <div>  Don'n have an account yet?
+     <div>  Don't have an account yet?
             <a href="register.php">
                  <input type="submit"  value="Sign up" >    
             </a>    
