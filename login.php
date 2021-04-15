@@ -32,13 +32,13 @@
     <form action="index.php" method="post">
         <h4 class="err"><?php echo $errorMessage ; ?></h4>
         <label for="email">Email</label><br>
-        <input type="email" name="email" id="email" value="">
+        <input type="email" name="email" id="email" value="" required>
         
         <br>
         <br>
 
         <label for="password">Password</label><br>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" required>
         
         <br>
         <br>

@@ -72,7 +72,7 @@
     </form>
     
     <br>
-    <a href="login.php">
+    <a href="index.php">
        
         <input type="submit" name="submit" value="back" id="">    
     </a>
