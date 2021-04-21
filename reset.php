@@ -42,7 +42,7 @@
             foreach ($newArr as $key => $value) {
                
                 if ($value->email == $email) {
-                    $value->password = $_POST['password'];
+                    $value->password = md5($_POST['password']);
                     
                 }
                

@@ -15,11 +15,8 @@
     if($_SERVER['REQUEST_METHOD'] == 'POST' || isset($_SESSION['email'])){
                
         if($_POST){
-                
-                $email = $_POST['email'];
-                $password = $_POST['password'];
                 $_SESSION['email'] = $_POST['email'];
-                $_SESSION['password'] = $_POST['password'];
+                $_SESSION['password'] = md5($_POST['password']);
                
         }
 
